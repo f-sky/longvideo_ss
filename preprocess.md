@@ -131,7 +131,7 @@ TAG:handler_name=SoundHandler
 [/STREAM]
 # I then run the command to preprocess
 ```bash
-ffmpeg -i ./long_video_before_preprocess.mp4 -ss 00:09:37 -y -c copy longvideo.mp4 
+ffmpeg -i ./long_video_before_preprocess.mp4 -ss 00:09:07 -y -c copy longvideo.mp4 
 ```
 # The info of preprocessed longvideo.mp4
 ffprobe version 3.4.8-0ubuntu0.2 Copyright (c) 2007-2020 the FFmpeg developers
